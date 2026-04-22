@@ -1,0 +1,16 @@
+name: ai-try-on-backend
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - fastapi==0.124.0
+      - uvicorn[standard]==0.38.0
+      - python-multipart==0.0.20
+      - python-dotenv==1.0.1
+      - pillow>=11.0.0
+      - requests>=2.31.0
+      - google-genai>=1.52.0
+      - sqlalchemy>=2.0.36
+      - pymysql>=1.1.1
